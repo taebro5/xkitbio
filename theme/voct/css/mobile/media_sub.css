@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+/**** Media Query *********************************/
+@media(max-width: 1600px) {
+	.sub_layout {box-sizing: border-box; padding: 0 20px 0 120px; width: 100%; max-width: 100%;}
+	.speed_top > div.page-info {padding-left: 40px;}
+	.sub_cont .sub_cnt {padding-left: 40px;}
+
+	.s1_1 .figure-summary > .details {background-size: 60px auto;}
+}
+
+@media(max-width: 1200px) {
+	.speed_top {height: auto;}
+	.speed_top {display: block; width: 100%;}
+	.speed_top > div.cate_name_box {display: none;}
+	.speed_top > div.page-info {display: block; width: 100%; padding-left: 0; box-sizing: border-box; padding: 60px 0 40px;}
+
+	.sub_cont {display: block; }
+	.sub_cont .sub_cnt {display: block; width: 100%; padding-left: 0; margin-top: 40px;}
+
+	.sub_cont .lnb_ {display: block; width: 100%; text-align: center;}
+	.sub_cont .lnb_ .dep2 {display: table; width: 100%; table-layout: fixed; border: 1px solid #ddd;}
+	.sub_cont .lnb_ .dep2 > li {display: table-cell; vertical-align: top; border: 0; border-right: 1px solid #ddd;}
+	.sub_cont .lnb_ .dep2 > li:last-child {border-right: 0;}
+	.sub_cont .lnb_ .dep2 > li:after, .sub_cont .lnb_ .dep2 > li:before {display: none !important;}
+	.sub_cont .lnb_ .dep2 > li > a {padding: 0; height: 60px; display: table; width: 100%; word-break: keep-all; box-sizing: border-box;}
+	.sub_cont .lnb_ .dep2 > li > a span {display: table-cell; vertical-align: middle; }
+}
+
+@media(max-width: 1024px) {
+	.speed_top > div.page-info h2 {font-size: 30px;}
+	.speed_top > div.page-info ol {transform: none; top: auto; bottom: 40px;}
+	.speed_top > div.page-info ol > li {font-size: 14px;}
+
+	.sv_sec .tit_box {height: 350px;}
+	.sv_sec .tit_box .sv_tit_sec p {font-size: 18px;}
+	.sv_sec .tit_box .sv_tit_sec h3 {font-size: 45px;}
+
+	.sub_layout {padding: 0 20px;}
+
+
+	.sub_cont .lnb_ .dep2 > li > a {font-size: 16px; line-height: 26px;}
+	
+	.s1_1 .figure-summary > .details {padding: 30px 20px;}
+	.s1_1 .figure-summary > .details h3 {font-size: 20px;}
+	.s1_1 .figure-summary > .details p {font-size: 14px; line-height: 24px;}
+	
+	.s1_1 .tit_box {font-size: 20px; margin-bottom: 30px;}
+	.s1_1 .txt_box {padding: 30px 20px;}
+	.s1_1 .txt_box p {font-size: 14px; line-height: 28px;}
+	.s1_1 .txt_box p:first-child {padding-right: 10px;}
+	.s1_1 .txt_box p:last-child {padding-left: 10px;}
+	.s1_1 .cont_box {margin-bottom: 0;}
+
+	.s1_2 .figure-list > ul > li > figure > figcaption {font-size: 14px; line-height: 24px; padding-top: 15px;}
+	.s1_2 .summary p {font-size: 14px; line-height: 24px;}
+	.s1_2 .summary p:first-child {padding-right: 20px;}
+	.s1_2 .summary p:nth-of-type(2) {padding-left: 20px;}
+	.s1_2 .summary p span {font-size: 16px; margin-top: 30px;}
+
+
+	.s1_3 .history-list > ol {padding-top: 60px;}
+	.s1_3 .history-list > ol > li > dl > dt {font-size: 20px; padding-bottom: 20px;}
+	.s1_3 .history-list > ol > li:nth-of-type(2n + 1) > dl > dt, .s1_3 .history-list > ol > li:nth-of-type(2n + 1) > dl > dd {padding-left: 50px;}
+	.s1_3 .history-list > ol > li:nth-of-type(2n + 2) > dl > dt, .s1_3 .history-list > ol > li:nth-of-type(2n + 2) > dl > dd {padding-right: 50px;}
+	.s1_3 .history-list > ol > li > dl > dd > ol > li > dl dt {width: 60px;}
+	.s1_3 .history-list > ol > li > dl > dd > ol > li > dl dt, .s1_3 .history-list > ol > li > dl > dd > ol > li > dl dd {font-size: 16px; line-height: 28px;}
+	.s1_3 .history-list > ol > li > dl > dd > ol > li ~ li {margin-top: 20px;}
+	.s1_3 .history-list > ol > li:before {top: 42px;}
+
+	.s1_3 .history-top {height: 200px; padding: 0 15px;}
+	.s1_3 .history-top > div small {font-size: 12px;}
+	.s1_3 .history-top > div strong {font-size: 16px; line-height: 34px; margin-top: 10px;}
+
+	.s1_4 .tit-box p {font-size: 20px;}
+	.s1_4 .tit-box span {font-size: 16px;}
+
+	.s1_5 .address_wrap {margin-bottom: 60px; position: relative;}
+	.s1_5 .address_wrap ul li {display: table; width: 100%; table-layout: fixed; }
+	.s1_5 .address_wrap ul li p {display: table-cell; vertical-align: top; margin: 0;}
+	.s1_5 .address_wrap ul li p:first-child {width: 80px;}
+
+	.s3 .tit_box {
+		position: relative;
+		padding-left: 20px;
+		margin-bottom: 20px;
+	}
+	.s3 .cont_tit {
+		font-size: 20px;
+		color: #000000;
+		word-break: keep-all;
+	}
+	.s3 .tit_box img {
+		position: absolute;
+		top: 9px;
+		left: 0; 
+		margin: 0;
+	}
+	.s3_1 .gray_box {
+		font-size: 16px; 
+		line-height: 26px;
+		padding: 20px;
+	}
+	.s3_1 .gray_box br {
+		display: none;
+	}
+
+
+	.s3_1 .cont_box {margin-bottom: 40px;}
+	.s3_1 .summary-area > ul {margin-top: 40px;}
+	.s3_1 .summary-area {padding-bottom: 100px;}
+	.s3_1 .summary-area > ul > li > figure > figcaption {font-size: 16px; line-height: 50px;}
+
+	
+	.s3_2 .summary-list > ul > li .box .details dl dt {font-size: 18px;}
+	.s3_2 .summary-list > ul > li .box .details dl dd > ul > li {font-size: 14px; line-height: 22px;}
+	.s3_2 .partner-list > ul > li > div {height: 100px;}
+	.s3_2 .partner-list > ul > li > div > span {padding: 0 10px;}
+}
+
+@media(max-width: 768px) {
+	.sv_sec .tit_box {height: 250px;}
+	.sv_sec .tit_box .sv_tit_sec p {font-size: 16px;}
+	.sv_sec .tit_box .sv_tit_sec h3 {font-size: 30px; margin-top: 15px;}
+
+	.sub_cont .lnb_ .dep2 > li > a {font-size: 13px; line-height: 21px; height: 50px; padding: 0 5px;}
+
+	.speed_top > div.page-info h2 {font-size: 24px;}
+	.speed_top > div.page-info ol {position: static; margin-top: 10px; text-align: right; width: 100%; transform: none;}
+	.speed_top > div.page-info ol > li {font-size: 12px;}
+
+	.speed_top > div.page-info {padding-bottom: 20px;}
+	
+	.s1_1 .figure-summary {display: block;}
+	.s1_1 .figure-summary > div {display: block; width: 100%;}
+	.s1_1 .figure-summary > .figure {border-radius: 10px; overflow: hidden;}
+	.s1_1 .figure-summary > .details {padding-bottom: 90px; background-position: calc(100% - 20px) calc(100% - 20px);}
+	.s1_1 .txt_box p {display: block; width: 100%; padding: 0 !important;}
+	.s1_1 .txt_box p ~ p {margin-top: 30px;}
+	
+	.s1_2 .figure-list > ul > li {padding: 0 5px; height: 100%;}
+	.s1_2 .figure-list > ul > li > figure > img {width: 60px;}
+	.s1_2 .figure-list > ul > li > figure > figcaption {font-size: 12px; padding-top: 10px; line-height: 20px;}
+	.s1_2 .figure-list > ul > li > figure > figcaption br {display: none;}
+	.s1_2 .summary {margin-top: 30px;}
+	.s1_2 .summary p {display: block; width: 100%; border: 0 !important; padding: 0 !important;}
+	.s1_2 .summary p ~ p {margin-top: 30px;}
+	
+	.sub_cnt.space {padding-bottom: 0 !important;}
+	.s1_3 .history-list > ol {padding-top: 40px;}
+	.s1_3 .history-list > ol:before {left: 8px; transform: none;}
+	.s1_3 .history-list > ol > li {padding-bottom: 45px;}
+	.s1_3 .history-list > ol > li:before {left: 0; transform: none;}
+	.s1_3 .history-list > ol > li > dl {width: 100%; margin: 0 !important; text-align: left !important;}
+	.s1_3 .history-list > ol > li > dl > dt {padding: 0 30px 20px !important; text-align: center;}
+	.s1_3 .history-list > ol > li > dl > dd {padding: 20px 30px 0 !important;}
+	.s1_3 .history-list > ol > li > dl > dd > ol > li > dl {display: block; }
+	.s1_3 .history-list > ol > li > dl > dd > ol > li > dl > dt, .s1_3 .history-list > ol > li > dl > dd > ol > li > dl > dd {
+		float: none !important; display: inline-block; vertical-align: top; 
+	} 
+	
+	.s1_3 .history-list > ol > li > dl > dt:after {left: auto; right: 0;}
+	.s1_3 .history-list > ol > li > dl > dd > ol > li > dl > dd {width: calc(100% - 60px);}
+
+	.s1_3 .history-list > ol > li > dl > dd > ol > li > dl dd li .act_mo{display: block;}
+
+
+	.s1_4 .flex-box {display: block;}
+	.s1_4 .flex-box > li {display: block; width: 100% !important;}
+	.s1_4 .flex-box > li ~ li {margin-top: 20px;}
+	.s1_4 .flex-box li .tit-wrap p {font-size: 16px; padding: 0;}
+	.s1_4 .flex-box li .txt-wrap {padding: 10px 0;}
+	.s1_4 .flex-box li .txt-wrap p {font-size: 14px; line-height: 22px;}
+
+	
+	.s1_5 .address_wrap {padding-right: 90px;}
+	.s1_5 .address_wrap ul li p {font-size: 14px; line-height: 22px;}
+	.s1_5 .address_wrap ul li p:first-child {width: 60px;}
+	.s1_5 .address_wrap ol {width: 80px; height: 40px; position: absolute; top: 0; right: 0;}
+	.s1_5 .address_wrap ol > li {width: 50%; height: 40px;}
+	.s1_5 .address_wrap ol > li > a {display: block; width: 100%; height: 100%;}
+	.s1_5 .address_wrap ol > li > a span {width: 20px; height: 20px; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+	.s1_5 .address_wrap ol > li > a span img {width: 100%; height: auto !important;}
+
+
+	.s3_1 .gray_box {padding: 20px 15px; font-size: 14px; line-height: 22px;}
+
+
+	.s3_1 {overflow: hidden;}
+	.s3_1 .summary-area > ul > li {display: block; width: 100%;}
+	.s3_1 .summary-area > ul > li ~ li {margin-top: 20px;}
+	.s3_1 .summary-area > ul > li:after {
+		left: 50%;
+		top: auto;
+		bottom: -34px;
+		transform: translateX(-50%);
+	}
+	.s3_1 .ani_imgBox .ani_rotate > span img {
+		transform: translateX(-50%) scale(.5);
+	}
+	
+	.s3_2 .summary-list > ul {display: block;}
+	.s3_2 .summary-list > ul > li {display: block; border-right: 0;}
+	.s3_2 .summary-list > ul > li ~ li {margin-top: 30px;}
+
+	.s3_2 .partner-list > ul > li {width: 50%;}
+	.s3_2 .partner-list > ul > li:nth-of-type(2n + 1) {border-right: 1px solid #ddd !important;}
+	.s3_2 .partner-list > ul > li:nth-of-type(2n + 2) {border-right: 0;}
+	.s3_2 .partner-list > ul > li:nth-of-type(2) ~ li {border-top: 1px solid #ddd;}
+
+	.s3_2 .summary-list > ul > li .box .details .d1box{text-align: center; margin: 0;}
+
+	.responsive .inner {width:750px;}
+}
