@@ -126,6 +126,98 @@ var g5_theme_shop_url = "G5_THEME_SHOP_URL";
 
 
 
+<style>
+/* Modal Content (image) */
+.modal {
+  display: block; /* Show the modal by default */
+  position: fixed;
+  z-index: 9999999;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  max-width: 80%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 4px;
+  border-radius: 0px;
+    height: fit-content;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #aaa;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-footer {
+  display: flex;
+  width: 100%;
+}
+
+.modal-footer button {
+  width: 50%;
+  padding: 10px 0;
+  border: none;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.modal-footer button:hover {
+  background-color: #ddd;
+}
+</style>
+<div id="myModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img src="10077.png" alt="팝업 이미지" style="width:100%;">
+  <div class="modal-footer">
+    <button onclick="closeModal()">닫기</button>
+    <button onclick="hideForADay()">오늘 하루 보지 않기</button>
+  </div>
+</div>
+<script>
+function closeModal() {
+  document.getElementById('myModal').style.display = 'none';
+}
+
+function hideForADay() {
+  var date = new Date();
+  date.setTime(date.getTime() + (24 * 60 * 60 * 1000)); // 1 day from now
+  var expires = "expires=" + date.toUTCString();
+  document.cookie = "hideModal=true;" + expires + ";path=/";
+  closeModal();
+}
+
+function checkCookie() {
+  var cookies = document.cookie.split(';');
+  var hideModal = cookies.some(function(cookie) {
+    return cookie.trim().startsWith('hideModal=true');
+  });
+  if (!hideModal) {
+    document.getElementById('myModal').style.display = 'block';
+  } else {
+    document.getElementById('myModal').style.display = 'none';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', checkCookie);
+</script>
+
+
 
 
 <!-- 팝업레이어 시작 { -->
@@ -295,10 +387,15 @@ $(window).load(function(){
 
 		.hd_pops {left: 3vw !important;top: 3vw !important;max-width: calc(100% - 6vw);}
 	}
+
+
 </style>
+
+
 
 <!-- 공통 레이어 팝업 영역 : 시작 -->
 <div class="pop_bg"></div>
+
 
 <div class="layer_box layer_privacy">
 	<h3 class="pop_name">개인정보처리방침</h3>
@@ -367,7 +464,7 @@ SMS 수신여부, 서비스 이용기록, 접속로그, 받는 고객 정보(이
 이름 : 김성길
 소속/직위 : 차장
 e-mail : sgkim@bioten.co.kr
-전화번호 : 063-538-2300
+전화번호 : 070-8019-3047
 정보주체께서는 회사 서비스를 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자 및 담당자에게 문의하실 수 있습니다.
 
 제 9장. 의견수렴 및 불만처리
@@ -818,8 +915,8 @@ $('.site_cnt_wrap .right_menu > .gnb > li > ul > li > a').on("click", function(e
 					<p class="copy">ⓒ 2023 XKIT-BIO ALL RIGHTS RESERVED</p>
 				</div>
 				<ul class="flex_box ft_info_list">
-					<li>엑스키트바이오 주식회사 <span>ㅣ</span><br> 사업자등록번호 : 404-81-34434</li>				
-					<li>본사 및 공장 :   경기도 김포시 고촌읍 장차로13번길 25, 302-996호 (세종프라자)<span>ㅣ</span><br>  TEL : 063-538-2300 <span>ㅣ</span> &nbsp; FAX : 063-538-8005</li>
+					<li>엑스키트바이오 주식회사 <span>ㅣ</span><br> 사업자등록번호 : 117-81-12574</li>				
+					<li>본사 및 공장 :   경기도 김포시 고촌읍 장차로13번길 25, 302-996호 (세종프라자)<span>ㅣ</span><br>  TEL : 070-8019-3047 <span>ㅣ</span> &nbsp;  </li>
 					 
 				</ul>
 			</div>
