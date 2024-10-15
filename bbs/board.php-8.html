@@ -1,304 +1,496 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
 <html lang="ko">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!--
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!--
 <meta name="viewport" content="width=1800">
 <meta name="HandheldFriendly" content="true">
 <meta name="format-detection" content="telephone=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 -->
-<title>엑스키트바이오</title>
-<title></title>
-<link rel="stylesheet" href="../gh/theeluwin/NotoSansKR-Hestia%40master/stylesheets/NotoSansKR-Hestia.css">
-<link rel="stylesheet" href="../theme/voct/mobile/skin/board/basic/style.css">
-<link rel="stylesheet" href="../earlyaccess/notosanskr.css"> 
-<link href="../css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>엑스키트바이오</title>
+    <title></title>
+    <link
+      rel="stylesheet"
+      href="../gh/theeluwin/NotoSansKR-Hestia%40master/stylesheets/NotoSansKR-Hestia.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../theme/voct/mobile/skin/board/basic/style.css"
+    />
+    <link rel="stylesheet" href="../earlyaccess/notosanskr.css" />
+    <link
+      href="../css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
-<link rel="stylesheet" href="../css/font-awesome.min.css">
-<link rel="stylesheet" href="../css/jquery-ui.css">
-<link rel="stylesheet" href="../css/jquery.bxslider.css">
-<link rel="stylesheet" href="../theme/voct/css/mobile/owl.carousel.min.css">
-<link rel="stylesheet" href="../theme/voct/css/mobile/owl.theme.default.min.css">
-<!--<link rel="stylesheet" href="http://www.bioten.co.kr/theme/voct/css/mobile/swiper/swiper.css">-->
-<link rel="stylesheet" href="../theme/voct/css/mobile/wow/animate.css">
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-simplyscroll/2.1.1/jquery.simplyscroll.min.css">  -->
-<!--<link rel="stylesheet" href="http://www.bioten.co.kr/theme/voct/css/mobile/full/fullpage.css">-->
-<link rel="stylesheet" href="../theme/voct/css/mobile/slick.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/jquery-ui.css" />
+    <link rel="stylesheet" href="../css/jquery.bxslider.css" />
+    <link
+      rel="stylesheet"
+      href="../theme/voct/css/mobile/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../theme/voct/css/mobile/owl.theme.default.min.css"
+    />
+    <!--<link rel="stylesheet" href="http://www.bioten.co.kr/theme/voct/css/mobile/swiper/swiper.css">-->
+    <link rel="stylesheet" href="../theme/voct/css/mobile/wow/animate.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-simplyscroll/2.1.1/jquery.simplyscroll.min.css">  -->
+    <!--<link rel="stylesheet" href="http://www.bioten.co.kr/theme/voct/css/mobile/full/fullpage.css">-->
+    <link rel="stylesheet" href="../theme/voct/css/mobile/slick.css" />
 
+    <link rel="stylesheet" href="../theme/voct/css/mobile/common.css" />
+    <link rel="stylesheet" href="../theme/voct/css/mobile/layout.css" />
+    <link rel="stylesheet" href="../theme/voct/css/mobile/main.css" />
+    <link rel="stylesheet" href="../theme/voct/css/mobile/sub.css" />
+    <link rel="stylesheet" href="../theme/voct/css/mobile/template.css" />
+    <link rel="stylesheet" href="../theme/voct/css/mobile/media.css" />
+    <link rel="stylesheet" href="../css/slick.css" />
+    <link rel="stylesheet" href="../css/slick-theme.css" />
 
+    <!-- 파비콘 -->
+    <!-- <link rel="shortcut icon" href="http://www.bioten.co.kr/theme/voct/images/template/favi_test.png" type="image/x-ico" /> -->
 
-<link rel="stylesheet" href="../theme/voct/css/mobile/common.css">
-<link rel="stylesheet" href="../theme/voct/css/mobile/layout.css">
-<link rel="stylesheet" href="../theme/voct/css/mobile/main.css">
-<link rel="stylesheet" href="../theme/voct/css/mobile/sub.css">
-<link rel="stylesheet" href="../theme/voct/css/mobile/template.css">
-<link rel="stylesheet" href="../theme/voct/css/mobile/media.css">
-<link rel="stylesheet" href="../css/slick.css">
-<link rel="stylesheet" href="../css/slick-theme.css">
+    <!-- 네이버 메타태그 -->
+    <!-- <meta name="naver-site-verification" content="e37fb67beb91001a0392bc9983b9be63fc95e222"/> -->
+    <meta name="naver-site-verification" content="" />
 
-<!-- 파비콘 -->
-<!-- <link rel="shortcut icon" href="http://www.bioten.co.kr/theme/voct/images/template/favi_test.png" type="image/x-ico" /> -->
+    <!-- 일반 메타태그 -->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="canonical" href="" />
 
-<!-- 네이버 메타태그 -->
-<!-- <meta name="naver-site-verification" content="e37fb67beb91001a0392bc9983b9be63fc95e222"/> -->
-<meta name="naver-site-verification" content="">
+    <!-- SNS관련 메타태그 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="엑스키트바이오" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
 
-<!-- 일반 메타태그 -->
-<meta name="description" content="">
-<meta name="keywords" content="">
-<link rel="canonical" href="">
+    <!--<link rel="stylesheet" href="http://www.bioten.co.kr/css/etc.css">-->
 
-<!-- SNS관련 메타태그 -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="엑스키트바이오">
-<meta property="og:description" content="">
-<meta property="og:image" content="">
-<meta property="og:url" content="">
+    <!--[if lte IE 8]>
+      <script src="http://www.bioten.co.kr/js/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+      // 자바스크립트에서 사용하는 전역변수 선언
+      var g5_url = "http://www.bioten.co.kr";
+      var g5_bbs_url = "http://www.bioten.co.kr/bbs";
+      var g5_is_member = "";
+      var g5_is_admin = "";
+      var g5_is_mobile = "1";
+      var g5_bo_table = "s6_1";
+      var g5_sca = "";
+      var g5_editor = "smarteditor2";
+      var g5_cookie_domain = "";
+      var g5_shop_url = "G5_SHOP_URL";
+      var g5_theme_shop_url = "G5_THEME_SHOP_URL";
+    </script>
 
+    <script src="../js/jquery-1.11.1.js"></script>
+    <script src="../js/jquery-ui.js"></script>
+    <script src="../js/jquery.bxslider.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <script src="../js/printThis.js"></script>
+    <script src="../theme/voct/js/owl.carousel.min.js"></script>
+    <!-- <script src="http://www.bioten.co.kr/theme/voct/js/swiper/swiper.min.js"></script> -->
+    <script src="../theme/voct/js/wow/wow.min.js"></script>
+    <!-- <script src="http://www.bioten.co.kr/theme/voct/js/ui_test.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-simplyscroll/2.1.1/jquery.simplyscroll.min.js"></script> -->
+    <!-- <script src="http://www.bioten.co.kr/theme/voct/js/full/fullpage.js"></script> -->
+    <!-- <script src="http://www.bioten.co.kr/theme/voct/js/selectordie/selectordie.min.js"></script> -->
+    <!-- <script src="http://www.bioten.co.kr/theme/voct/js/jquery.counterup.min.js"></script> -->
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> -->
 
-<!--<link rel="stylesheet" href="http://www.bioten.co.kr/css/etc.css">-->
+    <script src="../js/slick.min.js"></script>
 
-<!--[if lte IE 8]>
-	<script src="http://www.bioten.co.kr/js/html5.js"></script>
-<![endif]-->
-<!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-<script>
-// 자바스크립트에서 사용하는 전역변수 선언
-var g5_url       = "http://www.bioten.co.kr";
-var g5_bbs_url   = "http://www.bioten.co.kr/bbs";
-var g5_is_member = "";
-var g5_is_admin  = "";
-var g5_is_mobile = "1";
-var g5_bo_table  = "s6_1";
-var g5_sca       = "";
-var g5_editor    = "smarteditor2";
-var g5_cookie_domain = "";
-var g5_shop_url = "G5_SHOP_URL";
-var g5_theme_shop_url = "G5_THEME_SHOP_URL";
-</script>
+    <script>
+      new WOW().init();
+    </script>
 
-<script src="../js/jquery-1.11.1.js"></script>
-<script src="../js/jquery-ui.js"></script>
-<script src="../js/jquery.bxslider.js"></script>
-<script src="../js/jquery.easing.1.3.js"></script>
-<script src="../js/printThis.js"></script>
-<script src="../theme/voct/js/owl.carousel.min.js"></script>
-<!-- <script src="http://www.bioten.co.kr/theme/voct/js/swiper/swiper.min.js"></script> -->
-<script src="../theme/voct/js/wow/wow.min.js"></script>
-<!-- <script src="http://www.bioten.co.kr/theme/voct/js/ui_test.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-simplyscroll/2.1.1/jquery.simplyscroll.min.js"></script> -->
-<!-- <script src="http://www.bioten.co.kr/theme/voct/js/full/fullpage.js"></script> -->
-<!-- <script src="http://www.bioten.co.kr/theme/voct/js/selectordie/selectordie.min.js"></script> -->
-<!-- <script src="http://www.bioten.co.kr/theme/voct/js/jquery.counterup.min.js"></script> -->
-<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> -->
+    <script src="../js/jquery.menu.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/wrest.js"></script>
+    <script src="../theme/voct/js/index.js"></script>
+    <script src="../theme/voct/js/media.js"></script>
 
-<script src="../js/slick.min.js"></script>
+    <script src="../theme/voct/js/slick.js"></script>
 
+    <script src="../js/modernizr.custom.70111.js"></script>
+    <script type="text/javascript">
+      function member_leave() {
+        //회원 탈퇴
+        if (confirm("회원에서 탈퇴 하시겠습니까?")) {
+          location.href =
+            "http://www.bioten.co.kr/bbs/member_confirm.php?url=member_leave.php";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <!-- 컨텐츠 : 시작 -->
+    <script>
+      document.title = "엑스키트바이오";
+    </script>
 
-<script>
-	new WOW().init(); 
-</script>
+    <div class="header subb">
+      <div class="hd_bg"></div>
+      <div class="hd_sub ct1">
+        <h1 class="hd_logo">
+          <a href="../index.htm">
+            <img
+              class="def"
+              src="../theme/voct/images/main/hd_logo.png"
+              alt="logo"
+            />
+            <img
+              class="over"
+              src="../theme/voct/images/main/hd_logo_hover.png"
+              alt="logo"
+            />
+          </a>
+        </h1>
+        <nav class="hd_nav fz20">
+          <ul class="gnb" id="clone_gnb">
+            <li class="">
+              <a href="/s1/s1_1.php.html"><span>회사소개</span></a>
+              <div class="subm">
+                <ul id="subm1" class="dep2 fz16">
+                  <li class="">
+                    <a href="/s1/s1_1.php.html"><span>기업개요</span></a>
+                  </li>
+                  <li class="">
+                    <a href="/s1/s1_2.php.html"><span>CEO 인사말</span></a>
+                  </li>
+                  <li class="">
+                    <a href="/s1/s1_3.php.html"><span>회사 연혁</span></a>
+                  </li>
+                  <li class="">
+                    <a href="/s1/s1_4.php.html"><span>비전 CI</span></a>
+                  </li>
+                  <li class="">
+                    <a href="/s1/s1_5.php.html"><span>오시는 길</span></a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li style="display: none">
+              <div class="subm">
+                <ul id="subm2" class="dep2 fz16">
+                  <!-- <li class=""><a href=""><span></span></a></li> -->
+                </ul>
+              </div>
+            </li>
+            <li class="">
+              <a href="/s3/s3_1.php.html"><span>연구개발</span></a>
+              <div class="subm">
+                <ul id="subm3" class="dep2 fz16">
+                  <li class="">
+                    <a href="/s3/s3_1.php.html"><span>독점 기술</span></a>
+                  </li>
+                  <li class="">
+                    <a href="/s3/s3_2.php.html"><span>소재 개발</span></a>
+                  </li>
+                  <li class="">
+                    <a href="/s3/s3_5.php.html"><span>성병진단기기</span></a>
+                  </li>
 
-<script src="../js/jquery.menu.js"></script>
-<script src="../js/common.js"></script>
-<script src="../js/wrest.js"></script>
-<script src="../theme/voct/js/index.js"></script>
-<script src="../theme/voct/js/media.js"></script>
+                  <!-- <li class=""><a href="javascript:alert('준비중입니다.');"><span></span></a></li> -->
+                </ul>
+              </div>
+            </li>
+            <li style="display: none">
+              <div class="subm">
+                <ul id="subm5" class="dep2 fz16"></ul>
+              </div>
+            </li>
+            <li class="">
+              <a href="/bbs/board.php-8.html?bo_table=s6_1"
+                ><span>채용정보</span></a
+              >
+              <div class="subm">
+                <ul id="subm6" class="dep2 fz16">
+                  <li class="">
+                    <a href="/bbs/board.php-8.html?bo_table=s6_1"
+                      ><span>채용정보</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div class="head-util">
+          <div class="hd_menu">
+            <ul>
+              <li></li>
+            </ul>
+          </div>
+          <div class="hd_sitemap">
+            <a href="#n" class="btn_sitemap">
+              <img
+                class="def"
+                src="../theme/voct/images/main/btn_sitemap.png"
+                alt=""
+              />
+              <img
+                class="over"
+                src="../theme/voct/images/main/btn_sitemap_hover.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<script src="../theme/voct/js/slick.js"></script>
+    <div id="wrap" class="sub_wrap">
+      <div class="sv_sec sv sv6 sv61 sv61">
+        <div class="tit_box ct2">
+          <div class="sv_tit_sec ft_suit">
+            <p
+              class="fz20 wow fadeInDown"
+              data-wow-duration="1s"
+              data-wow-delay=".5s"
+            >
+              RECRUITMENT
+            </p>
+            <h3
+              class="sv_title fz55 wow fadeInDown"
+              data-wow-duration="1s"
+              data-wow-delay=".3s"
+            >
+              채용정보
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="sub_layout ct2">
+        <div class="speed_top ft_suit">
+          <div class="cate_name_box">
+            <p class="sub_txt fz16 wow fadeInDown">RECRUITMENT</p>
+            <h2 class="sub_cate_name fz30 wow fadeInDown" data-wow-delay=".3s">
+              <span>채용정보</span>
+            </h2>
+          </div>
+          <div class="page-info">
+            <h2><span>채용정보</span></h2>
+            <ol class="speed_ol">
+              <li class="home"><a href="http://biot.inpiad.net/"></a></li>
+              <li>채용정보</li>
+              <li>채용정보</li>
+              <!-- <img src="http://www.bioten.co.kr/theme/voct/images/sub/" /><img src="http://www.bioten.co.kr/theme/voct/images/sub/" alt=""> -->
+            </ol>
+          </div>
+        </div>
+        <div class="sub_cont ft_suit">
+          <div class="lnb_">
+            <div class="siteul_ siteul_6"></div>
+          </div>
+          <div class="sub_cnt">
+            <div class="bd_sec">
+              <style>
+                .pop_bg {
+                  position: fixed;
+                  display: none;
+                  left: 0;
+                  right: 0;
+                  top: 0;
+                  bottom: 0;
+                  z-index: 998;
+                  background: rgba(0, 0, 0, 0.4);
+                }
+                .layer_box {
+                  display: none;
+                  position: fixed;
+                  left: 0;
+                  right: 0;
+                  top: 0;
+                  bottom: 0;
+                  width: 90%;
+                  max-width: 980px;
+                  height: 100%;
+                  max-height: 600px;
+                  margin: auto auto;
+                  padding: 50px 40px;
+                  background: #fff;
+                  z-index: 999;
+                  border-radius: 10px;
+                  overflow: hidden;
+                  box-sizing: border-box;
+                }
+                .layer_box > h3 {
+                  margin-bottom: 40px;
+                  font-size: 28px;
+                  line-height: 1;
+                  color: #111;
+                  font-weight: 700;
+                }
+                .layer_box .btn_close {
+                  position: absolute;
+                  display: block;
+                  width: 28px;
+                  height: 28px;
+                  right: 40px;
+                  top: 50px;
+                  background: url(../img/common_close.jpg) no-repeat center
+                    center/100%;
+                  overflow: hidden;
+                  font-size: 0;
+                  line-height: 0;
+                  border: 0;
+                }
+                .layer_box .div_outline {
+                  display: block;
+                  border: 1px solid #ddd;
+                  box-sizing: border-box;
+                  -moz-box-sizing: border-box;
+                  -webkit-box-sizing: border-box;
+                }
+                .layer_box .div_outline_padding {
+                  display: block;
+                  height: 360px;
+                  padding: 20px;
+                  border: 1px solid #ddd;
+                  overflow-y: auto;
+                  box-sizing: border-box;
+                  -moz-box-sizing: border-box;
+                  -webkit-box-sizing: border-box;
+                }
+                .layer_box textarea,
+                .layer_box .div_textarea,
+                .layer_box .email_area {
+                  width: 100%;
+                  height: 430px;
+                  padding: 15px 20px;
+                  border: 0;
+                  overflow-y: auto;
+                  resize: none;
+                  outline: 0;
+                  box-sizing: border-box;
+                }
+                .layer_privacy {
+                  display: none;
+                }
+                .layer_email {
+                  display: none;
+                }
 
-<script src="../js/modernizr.custom.70111.js"></script>
-<script type="text/javascript">
-	function member_leave(){//회원 탈퇴
-		if (confirm("회원에서 탈퇴 하시겠습니까?")){
-			location.href = 'http://www.bioten.co.kr/bbs/member_confirm.php?url=member_leave.php';
-		}
-	}
-</script>
+                @media (max-width: 960px) {
+                  .layer_sitemap {
+                    width: 65%;
+                  }
 
-</head>
-<body>
+                  .hd_pops {
+                    left: 10px !important;
+                    top: 10px !important;
+                    max-width: calc(100% - 20px);
+                  }
+                  .hd_pops_con {
+                    max-width: 100%;
+                  }
+                }
 
+                @media (max-width: 800px) {
+                  .layer_sitemap {
+                    width: 70%;
+                  }
 
+                  .layer_box {
+                    padding: 20px;
+                    max-height: 520px;
+                  }
+                  .layer_box .btn_close {
+                    top: 20px;
+                    right: 20px;
+                    width: 20px;
+                    height: 20px;
+                  }
+                  .layer_box > h3 {
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                  }
+                }
 
+                @media (max-width: 640px) {
+                  .layer_sitemap {
+                    width: 95%;
+                    height: calc(100vh - 17vw);
+                    top: 17vw;
+                  }
+                  .layer_sitemap .layer_sitemap_top {
+                    height: 17vw;
+                    top: -17vw;
+                  }
+                  .site_cnt_wrap .left_menu > ul > li > a {
+                    padding-left: 1.5em;
+                  }
+                  .site_cnt_wrap .left_menu > ul > li > a:after {
+                    background-position: right 1.5em center;
+                  }
+                  .layer_sitemap .site_close {
+                    width: 17vw;
+                    height: 17vw;
+                  }
+                  .layer_sitemap .site_close:before,
+                  .layer_sitemap .site_close:after {
+                    left: 8vw;
+                    height: 8vw;
+                    top: 5vw;
+                  }
+                  .layer_sitemap .site_close:hover:before {
+                    top: 4vw;
+                  }
+                  .layer_sitemap .site_close:hover:after {
+                    top: 7.3vw;
+                  }
+                  .layer_sitemap .site_close:hover:before,
+                  .layer_sitemap .site_close:hover:after {
+                    height: 5vw;
+                  }
 
+                  .layer_box textarea,
+                  .layer_box .div_textarea,
+                  .layer_box .email_area {
+                    padding: 10px;
+                  }
+                  .layer_box > h3 {
+                    font-size: 18px;
+                  }
 
+                  .hd_pops {
+                    left: 3vw !important;
+                    top: 3vw !important;
+                    max-width: calc(100% - 6vw);
+                  }
+                }
+              </style>
 
-<!-- 컨텐츠 : 시작 -->
-<script>
-		document.title = "엑스키트바이오";
-</script> 
+              <!-- 공통 레이어 팝업 영역 : 시작 -->
+              <div class="pop_bg"></div>
 
-<div class="header subb">
-	<div class="hd_bg"></div>
-	<div class="hd_sub ct1">
-		<h1 class="hd_logo">
-			<a href="../index.htm">
-				<img class="def" src="../theme/voct/images/main/hd_logo.png" alt="logo"> 				
-				<img class="over" src="../theme/voct/images/main/hd_logo_hover.png" alt="logo"> 
-			</a>
-		</h1>
-		<nav class="hd_nav fz20">
-			<ul class="gnb" id="clone_gnb">
-				<li class=""><a href="../s1/s1_1.php.html"><span>회사소개</span></a>
-					<div class="subm">
-						<ul id="subm1" class="dep2 fz16">
-							<li class="current"><a href="../s1/s1_1.php.html"><span>기업개요</span></a></li>
-							<li class=""><a href="../s1/s1_2.php.html"><span>CEO 인사말</span></a></li>
-							<li class=""><a href="../s1/s1_3.php.html"><span>회사 연혁</span></a></li>
-							<li class=""><a href="../s1/s1_4.php.html"><span>비전 CI</span></a></li>						
-							<li class=""><a href="../s1/s1_5.php.html"><span>오시는 길</span></a></li>
-						</ul>
-					</div>
-				</li>
-				    
-					<div class="subm">
-						<ul id="subm2" class="dep2 fz16">
-							    						
-							<!-- <li class=""><a href=""><span></span></a></li> -->
-						</ul>
-					</div>
-				</li>		
-				<li class=""><a href="../s3/s3_1.php.html"><span>연구개발</span></a>
-					<div class="subm">
-						<ul id="subm3" class="dep2 fz16">
-							<li class="current"><a href="../s3/s3_1.php.html"><span>독점 기술</span></a></li>						
-							<li class=""><a href="../s3/s3_2.php.html"><span>소재 개발</span></a></li>
-							 
-							<!-- <li class=""><a href="javascript:alert('준비중입니다.');"><span></span></a></li> -->
-						</ul>
-					</div>
-				</li>
-				
-					<div class="subm">
-						
-					</div>
-				</li>
-				
-					<div class="subm">
-						
-					</div>
-				</li>
-				<li class="current"><a href="board.php-8.html?bo_table=s6_1"><span>채용정보</span></a>
-					<div class="subm">
-						<ul id="subm6" class="dep2 fz16">
-							<li class="current"><a href="board.php-8.html?bo_table=s6_1"><span>채용정보</span></a></li>
-						</ul>
-					</div>
-				</li>
-			</ul>
-		</nav>
-		<div class="head-util">
-			<div class="hd_menu">
-				<ul>
-					<li>
-						 
-					</li>
-				</ul>
-			</div>
-			<div class="hd_sitemap">
-				<a href="#n" class="btn_sitemap">
-				<img class="def" src="../theme/voct/images/main/btn_sitemap.png" alt="">
-				<img class="over" src="../theme/voct/images/main/btn_sitemap_hover.png" alt=""> 
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-
-	<div id="wrap" class="sub_wrap "> 
-		<div class="sv_sec sv sv6 sv61  sv61 ">
-			<div class="tit_box ct2">
-				<div class="sv_tit_sec ft_suit">
-					<p class="fz20 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">RECRUITMENT</p>
-					<h3 class="sv_title fz55 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">채용정보</h3>
-				</div>
-			</div>
-		</div>
-		<div class="sub_layout ct2">
-			<div class="speed_top ft_suit">
-				<div class="cate_name_box">
-					<p class="sub_txt fz16 wow fadeInDown">RECRUITMENT</p>
-					<h2 class="sub_cate_name fz30 wow fadeInDown" data-wow-delay=".3s"><span>채용정보</span></h2>
-				</div>
-				<div class="page-info">
-					<h2><span>채용정보</span></h2>
-					<ol class="speed_ol">
-						<li class="home"><a href="http://biot.inpiad.net/"></a></li>
-						<li>채용정보</li>
-						<li>채용정보</li>
-						<!-- <img src="http://www.bioten.co.kr/theme/voct/images/sub/" /><img src="http://www.bioten.co.kr/theme/voct/images/sub/" alt=""> -->
-					</ol>
-				</div>
-			</div>
-			<div class="sub_cont ft_suit">
-				<div class="lnb_">
-					<div class="siteul_ siteul_6"></div>
-				</div>
-				<div class="sub_cnt">
-
-									<div class="bd_sec">
-				
-<style>
-	.pop_bg {position:fixed;display:none;left:0;right:0;top:0;bottom:0;z-index:998;background:rgba(0,0,0,0.4);}
-	.layer_box {display: none;position:fixed;left:0;right:0;top:0;bottom:0;width:90%;max-width:980px;height:100%;max-height:600px;margin:auto auto;padding:50px 40px;background:#fff;z-index:999;border-radius:10px;overflow: hidden;box-sizing:border-box;}
-	.layer_box > h3 {margin-bottom:40px;font-size:28px;line-height: 1;color:#111;font-weight:700;}
-	.layer_box .btn_close {position:absolute;display:block;width:28px;height:28px;right:40px;top:50px;background:url(../img/common_close.jpg) no-repeat center center/100%;overflow:hidden;font-size:0;line-height:0;border: 0;}
-	.layer_box .div_outline {display:block;border:1px solid #ddd;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
-	.layer_box .div_outline_padding {display:block;height:360px;padding:20px;border:1px solid #ddd;overflow-y:auto;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
-	.layer_box textarea,
-	.layer_box .div_textarea,
-	.layer_box .email_area {width:100%;height:430px;padding: 15px 20px;border:0;overflow-y:auto;resize:none;outline:0;box-sizing:border-box;}
-	.layer_privacy {display:none;}		 
-	.layer_email {display:none;}
-
-	@media(max-width:960px){
-		.layer_sitemap {width: 65%;}
-
-		.hd_pops {left: 10px !important;top: 10px !important;max-width: calc(100% - 20px);}
-		.hd_pops_con {max-width: 100%;}
-	}
-
-	@media(max-width:800px){
-		.layer_sitemap {width: 70%;}
-
-		.layer_box {padding: 20px;max-height: 520px;}
-		.layer_box .btn_close {top: 20px;right: 20px;width: 20px;height: 20px;}
-		.layer_box > h3 {font-size: 24px;margin-bottom: 20px;}
-	}
-
-	@media(max-width:640px){
-		.layer_sitemap {width: 95%;height: calc(100vh - 17vw);top: 17vw;}
-		.layer_sitemap .layer_sitemap_top {height: 17vw;top: -17vw;}
-		.site_cnt_wrap .left_menu > ul > li > a {padding-left: 1.5em;}
-		.site_cnt_wrap .left_menu > ul > li > a:after {background-position:right 1.5em center;}
-		.layer_sitemap .site_close {width: 17vw;height: 17vw;}
-		.layer_sitemap .site_close:before, .layer_sitemap .site_close:after {left: 8vw;height: 8vw;top: 5vw;}
-		.layer_sitemap .site_close:hover:before {top: 4vw;}
-		.layer_sitemap .site_close:hover:after {top: 7.3vw;}
-		.layer_sitemap .site_close:hover:before, .layer_sitemap .site_close:hover:after {height: 5vw;}
-
-		.layer_box textarea,
-		.layer_box .div_textarea,
-		.layer_box .email_area {padding: 10px;}
-		.layer_box > h3 {font-size: 18px;}
-
-		.hd_pops {left: 3vw !important;top: 3vw !important;max-width: calc(100% - 6vw);}
-	}
-</style>
-
-<!-- 공통 레이어 팝업 영역 : 시작 -->
-<div class="pop_bg"></div>
-
-<div class="layer_box layer_privacy">
-	<h3 class="pop_name">개인정보처리방침</h3>
-	<div class="div_outline">
-		<textarea name="" id="" cols="30" rows="28" readonly="" alt="개인정보처리방침">“엑스키트바이오 주식회사(“회사”)”는 개인정보보호법에 따라 이용자의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 이용자의 고충을 원활하게 처리할 수 있도록 다음과 같은 처리방침을 두고 있습니다. 고객님의 정보는 개인의 소중한 자산인 동시에 회사 운영의 중요한 자료가 됩니다. 그러므로 회사는 운영상의 모든 과정에서 고객님의 개인정보를 보호하는데 최선의 노력을 다할 것을 약속 드립니다. 회사는 개인정보처리방침을 개정하는 경우 웹사이트를 통하여 공지할 것입니다.
+              <div class="layer_box layer_privacy">
+                <h3 class="pop_name">개인정보처리방침</h3>
+                <div class="div_outline">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="28"
+                    readonly=""
+                    alt="개인정보처리방침"
+                  >
+“엑스키트바이오 주식회사(“회사”)”는 개인정보보호법에 따라 이용자의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 이용자의 고충을 원활하게 처리할 수 있도록 다음과 같은 처리방침을 두고 있습니다. 고객님의 정보는 개인의 소중한 자산인 동시에 회사 운영의 중요한 자료가 됩니다. 그러므로 회사는 운영상의 모든 과정에서 고객님의 개인정보를 보호하는데 최선의 노력을 다할 것을 약속 드립니다. 회사는 개인정보처리방침을 개정하는 경우 웹사이트를 통하여 공지할 것입니다.
 
 제 1장. 개인정보 수집 동의절차
 회사는 귀하께서 웹사이트의 개인정보보호방침 또는 이용약관의 내용에 대해 (동의한다)버튼 또는 (동의하지 않는다)버튼을 클릭할 수 있는 절차를 마련하여 (동의한다)버튼을 클릭하면 개인정보 수집에 대해 동의한 것으로 봅니다.
@@ -381,274 +573,329 @@ e-mail : sgkim@bioten.co.kr
 제 10장. 고지의 의무
 이 개인정보처리방침은 시행일로부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.
                    
-</textarea>
-	</div>
-	<a href="#n" class="btn_close">닫기</a>
-</div>
+</textarea
+                  >
+                </div>
+                <a href="#n" class="btn_close">닫기</a>
+              </div>
 
-<div class="layer_box layer_email">
-	<h3 class="pop_name">이메일무단수집거부</h3>
-	<div class="div_outline">
-		<div class="email_area">
-			<div class="email_box">
-				<p class="big_txt">
-					이메일주소 무단수집을 거부합니다.
-				</p>
-				<p class="normal_txt">
-					본 웹사이트에 게시된 이메일 주소가 전자우편 수집 프로그램이나 그 밖의 기술적 장치를 이용하여 <strong>무단으로 수집되는 것을 거부</strong>하며,
-					이를 <strong>위반시 정보통신망법에 의해 형사 처벌</strong>됨을 유념하시기 바랍니다.
-				</p>
-			</div>
-		</div>
-	</div>
-	<a href="#n" class="btn_close">닫기</a>
-</div>
+              <div class="layer_box layer_email">
+                <h3 class="pop_name">이메일무단수집거부</h3>
+                <div class="div_outline">
+                  <div class="email_area">
+                    <div class="email_box">
+                      <p class="big_txt">이메일주소 무단수집을 거부합니다.</p>
+                      <p class="normal_txt">
+                        본 웹사이트에 게시된 이메일 주소가 전자우편 수집
+                        프로그램이나 그 밖의 기술적 장치를 이용하여
+                        <strong>무단으로 수집되는 것을 거부</strong>하며, 이를
+                        <strong>위반시 정보통신망법에 의해 형사 처벌</strong
+                        >됨을 유념하시기 바랍니다.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <a href="#n" class="btn_close">닫기</a>
+              </div>
 
-<div class="layer_box layer_13_pop">
-	<figure><img src="http://www.bioten.co.kr/theme/voct/images/sub/s13_1_1.jpg"></figure>
-	<a href="#n" class="btn_close">닫기</a>
-</div>
+              <div class="layer_box layer_13_pop">
+                <figure>
+                  <img
+                    src="http://www.bioten.co.kr/theme/voct/images/sub/s13_1_1.jpg"
+                  />
+                </figure>
+                <a href="#n" class="btn_close">닫기</a>
+              </div>
 
+              <!-- 사이트맵 -->
+              <div class="sitemap_wrap">
+                <div class="layer_sitemap">
+                  <div class="layer_sitemap_top">
+                    <!-- 로그인이 있는 페이지의 경우 이부분에 로그인 카피예정. -->
+                    <span class="site_close"></span>
+                  </div>
+                  <div class="site_cnt_wrap">
+                    <div class="left_menu"></div>
+                    <div class="right_menu"></div>
+                  </div>
+                </div>
+              </div>
 
-<!-- 사이트맵 -->
-<div class="sitemap_wrap">
-	<div class="layer_sitemap">
-		<div class="layer_sitemap_top">
-			<!-- 로그인이 있는 페이지의 경우 이부분에 로그인 카피예정. -->
-			<span class="site_close"></span>
-		</div>
-		<div class="site_cnt_wrap">
-			<div class="left_menu"></div>
-			<div class="right_menu "></div>
-		</div>	
-	</div>
-</div>
+              <script type="text/javascript">
+                /* 레이어 팝업 : 개인정보처리방침(개인정보취급방침), 이메일주소무단수집거부에 사용되는 레이어 팝업 */
 
+                $(window).load(function () {
+                  //사이트 최초 접속 시
 
+                  $(".btn_privacy").click(function (e) {
+                    e.preventDefault();
+                    $("html, body").css("overflow", "hidden");
+                    $(".pop_bg, .layer_privacy").fadeIn();
+                  });
 
-<script type="text/javascript">
+                  $(".btn_mail").click(function (e) {
+                    e.preventDefault();
+                    $("html,body").css("overflow", "hidden");
+                    $(".pop_bg, .layer_email").fadeIn();
+                  });
 
-	/* 레이어 팝업 : 개인정보처리방침(개인정보취급방침), 이메일주소무단수집거부에 사용되는 레이어 팝업 */
+                  $(".btn_sitemap").click(function (e) {
+                    //사이트맵
+                    e.preventDefault();
+                    $("html").css("overflow", "hidden");
+                    $("body").css("overflow", "hidden");
+                    $(".sitemap_wrap").fadeIn();
+                    $(".layer_sitemap").stop().animate({ right: "0%" });
+                  });
+                });
 
-$(window).load(function(){//사이트 최초 접속 시
-	
-	$(".btn_privacy").click(function(e) {
-	  e.preventDefault();
-	  $("html, body").css("overflow", "hidden");
-	  $(".pop_bg, .layer_privacy").fadeIn();
-	});
+                $(".site_close").click(function (e) {
+                  //레이어팝업 닫기
+                  e.preventDefault();
+                  $("html").css("overflow", "visible");
+                  $("body").css("overflow", "visible");
+                  $(".sitemap_wrap").fadeOut();
+                  $(".layer_sitemap").stop().animate({ right: "-50%" });
+                });
 
-	$(".btn_mail").click(function(e) {
-	  e.preventDefault();
-	  $("html,body").css("overflow","hidden");
-	  $(".pop_bg, .layer_email").fadeIn();
-	});
+                $(".btn_close").click(function (e) {
+                  e.preventDefault();
+                  $("html,body").css("overflow", "visible");
+                  $(
+                    ".pop_bg, .layer_privacy, .layer_privacy2, .layer_email, .layer_13_pop"
+                  ).fadeOut();
+                });
 
+                //이 클론이 lnb 통제
+                for (let i = 1; i <= 5; i++) {
+                  // for문 상단 i 갯수로 조절.
+                  $(`#subm${i}`).clone().appendTo(`.siteul_${i}`);
+                }
 
-	$(".btn_sitemap").click(function(e){//사이트맵
-		e.preventDefault();
-			$('html').css('overflow','hidden');
-			$('body').css('overflow','hidden');		
-			$('.sitemap_wrap').fadeIn();
-			$('.layer_sitemap').stop().animate({right: '0%'});
-	});  
-});
+                $(".current .current .clone_3dep")
+                  .clone()
+                  .appendTo(".clone_dep3_box");
 
-	
-$(".site_close").click(function(e){//레이어팝업 닫기 
-	e.preventDefault();
-	$('html').css('overflow','visible');
-	$('body').css('overflow','visible');
-	$('.sitemap_wrap').fadeOut();
-	$('.layer_sitemap').stop().animate({right: '-50%'});
-}); 
+                //이 클론이 사이트맵 통제
+                $("#clone_gnb").clone().appendTo(".site_cnt_wrap .left_menu");
+                $("#clone_gnb").clone().appendTo(".site_cnt_wrap .right_menu");
 
-$(".btn_close").click(function(e) {
-  e.preventDefault();
-  $("html,body").css("overflow","visible");
-  $(".pop_bg, .layer_privacy, .layer_privacy2, .layer_email, .layer_13_pop").fadeOut();
-});
-		
+                //사이트맵 제이쿼리
+                $(".site_cnt_wrap .left_menu > .gnb > li > a").on(
+                  "click",
+                  function (e) {
+                    if ($(this).parent().find(".dep2").length > 0) {
+                      // 2차 메뉴가 있을시,
+                      e.preventDefault();
+                      $(".site_cnt_wrap .left_menu > .gnb > li").removeClass(
+                        "current"
+                      );
+                      $(this).parent("li").addClass("current");
+                    } else {
+                    }
 
-//이 클론이 lnb 통제
-	for (let i = 1; i <= 5; i++) { // for문 상단 i 갯수로 조절.
-	  $(`#subm${i}`).clone().appendTo(`.siteul_${i}`);
-	}
+                    var dep2List =
+                      $(
+                        ".site_cnt_wrap .left_menu > .gnb > li.current"
+                      ).index() + 1;
+                    var dep3List = $(".site_cnt_wrap .right_menu .gnb > li");
+                    var currentList = $(this).parent("li").index();
+                    //dep3List.removeClass('on');
+                    //dep3List.eq(currentList).addClass('on');
+                    dep3List.stop().animate({ left: "90%", opacity: "0" });
+                    dep3List.removeClass("on");
+                    dep3List
+                      .eq(currentList)
+                      .stop()
+                      .animate({ left: "0%", opacity: "1" });
+                    dep3List.eq(currentList).addClass("on");
+                  }
+                );
 
-	$( '.current .current .clone_3dep' ).clone().appendTo( '.clone_dep3_box' );
+                // 사이트맵 2뎁스 제이쿼리
+                $(".site_cnt_wrap .right_menu > .gnb > li > ul > li > a").on(
+                  "click",
+                  function (e) {
+                    if ($(this).parent().find(".dep3").length > 0) {
+                      e.preventDefault();
+                      $(this).parent("li").toggleClass("on");
 
+                      if ($(this).parent().find(".dep3").is(".on")) {
+                        // 2차 메뉴가 보일때
+                        $(".site_cnt_wrap .right_menu .dep3").removeClass("on");
+                        $(".site_cnt_wrap .right_menu .dep3")
+                          .stop()
+                          .slideUp(400);
+                      } else {
+                        // 안보일때
+                        $(".site_cnt_wrap .right_menu .dep3").removeClass("on");
+                        $(".site_cnt_wrap .right_menu .dep3")
+                          .stop()
+                          .slideUp(400);
+                        $(this).parent().find(".dep3").addClass("on");
+                        $(this).parent().find(".dep3").stop().slideDown(400);
+                      }
+                    } else {
+                      // 2차 메뉴가 없을 시
+                    }
+                  }
+                );
+              </script>
+              <!-- 게시판 목록 시작 -->
 
-//이 클론이 사이트맵 통제
-	$('#clone_gnb').clone().appendTo( '.site_cnt_wrap .left_menu');
-	$('#clone_gnb').clone().appendTo( '.site_cnt_wrap .right_menu');
-
-
-//사이트맵 제이쿼리
-$('.site_cnt_wrap .left_menu > .gnb > li > a').on("click", function(e){
-	if ($(this).parent().find(".dep2").length > 0){ // 2차 메뉴가 있을시,
-		e.preventDefault();
-		$('.site_cnt_wrap .left_menu > .gnb > li').removeClass('current');
-		$(this).parent('li').addClass('current');
-	} else {} 
-
-	var dep2List = $('.site_cnt_wrap .left_menu > .gnb > li.current').index() + 1; 
-	var dep3List = $('.site_cnt_wrap .right_menu .gnb > li');
-	var currentList = $(this).parent('li').index();
-	//dep3List.removeClass('on');
-	//dep3List.eq(currentList).addClass('on');
-	dep3List.stop().animate({left: '90%', opacity: '0'});
-	dep3List.removeClass('on');
-	dep3List.eq(currentList).stop().animate({left: '0%', opacity: '1'});
-	dep3List.eq(currentList).addClass('on');
-});
-
-// 사이트맵 2뎁스 제이쿼리
-$('.site_cnt_wrap .right_menu > .gnb > li > ul > li > a').on("click", function(e){
-	if ($(this).parent().find('.dep3').length > 0){ 
-		e.preventDefault();
-		$(this).parent('li').toggleClass('on');
-		
-		if ($(this).parent().find('.dep3').is(".on")){ // 2차 메뉴가 보일때
-			$('.site_cnt_wrap .right_menu .dep3').removeClass("on");
-			$('.site_cnt_wrap .right_menu .dep3').stop().slideUp(400);
-			
-		} else { // 안보일때
-			$('.site_cnt_wrap .right_menu .dep3').removeClass("on");
-			$('.site_cnt_wrap .right_menu .dep3').stop().slideUp(400);
-			$(this).parent().find('.dep3').addClass("on");
-			$(this).parent().find('.dep3').stop().slideDown(400);
-		}
-	} else { // 2차 메뉴가 없을 시
-	}
-});
-
-</script>	
-<!-- 게시판 목록 시작 -->
-
-<div id="bo_list" class="respon_l">
-	
-	<div class="bo_fx">
-		<!--  <div id="bo_list_total">
+              <div id="bo_list" class="respon_l">
+                <div class="bo_fx">
+                  <!--  <div id="bo_list_total">
 			<span>Total 0건</span>
 			1 페이지
 		</div>  -->
-	
-			</div> 
+                </div>
 
-	<form name="fboardlist" id="fboardlist" action="./board_list_update.php" onsubmit="return fboardlist_submit(this);" method="post">
-		<input type="hidden" name="bo_table" value="s6_1">
-		<input type="hidden" name="sfl" value="">
-		<input type="hidden" name="stx" value="">
-		<input type="hidden" name="spt" value="">
-		<input type="hidden" name="sst" value="wr_num, wr_reply">
-		<input type="hidden" name="sod" value="">
-		<input type="hidden" name="page" value="1">
-		<input type="hidden" name="sw" value="">
+                <form
+                  name="fboardlist"
+                  id="fboardlist"
+                  action="./board_list_update.php"
+                  onsubmit="return fboardlist_submit(this);"
+                  method="post"
+                >
+                  <input type="hidden" name="bo_table" value="s6_1" />
+                  <input type="hidden" name="sfl" value="" />
+                  <input type="hidden" name="stx" value="" />
+                  <input type="hidden" name="spt" value="" />
+                  <input type="hidden" name="sst" value="wr_num, wr_reply" />
+                  <input type="hidden" name="sod" value="" />
+                  <input type="hidden" name="page" value="1" />
+                  <input type="hidden" name="sw" value="" />
 
-		<div class="tb_outline">
-			<div class="div_tb">
-				<div class="div_tb_tr">
-					<div class="div_th col_num">번호</div>
-					<div class="div_th col_subject">제목</div>
-					<div class="div_th col_writer">글쓴이</div>
-					<div class="div_th col_date">등록일</div>
-					<div class="div_th col_hit">조회수</div>
-				</div>
-							</div>
-		</div>
-		<div class='div_nodata'>게시물이 없습니다.</div>		<!--  -->
-	</form>
-</div>
+                  <div class="tb_outline">
+                    <div class="div_tb">
+                      <div class="div_tb_tr">
+                        <div class="div_th col_num">번호</div>
+                        <div class="div_th col_subject">제목</div>
+                        <div class="div_th col_writer">글쓴이</div>
+                        <div class="div_th col_date">등록일</div>
+                        <div class="div_th col_hit">조회수</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="div_nodata">게시물이 없습니다.</div>
+                  <!--  -->
+                </form>
+              </div>
 
-	
-	<!-- 페이지 -->
-	
-	<div class="bd_search ct1">
-		<fieldset id="bo_sch">
-			<legend>게시물 검색</legend>
+              <!-- 페이지 -->
 
-			<form name="fsearch" method="get">
-				<input type="hidden" name="bo_table" value="s6_1">
-				<input type="hidden" name="sca" value="">
-				<input type="hidden" name="sop" value="and">
+              <div class="bd_search ct1">
+                <fieldset id="bo_sch">
+                  <legend>게시물 검색</legend>
 
-				<label for="sfl" class="sound_only">검색대상</label>
-				<select name="sfl" id="sfl" class="select_ty">
-					<option value="wr_subject">제목</option>
-					<option value="wr_content">내용</option>
-					<option value="wr_subject||wr_content">제목+내용</option>
-				</select>
-				<input type="text" name="stx" value="" placeholder="검색어" id="stx" class="input_ty" size="12" maxlength="20">
-				<input type="submit" value="검색" class="btn_search">
-			</form>
-		</fieldset>
-</div>
+                  <form name="fsearch" method="get">
+                    <input type="hidden" name="bo_table" value="s6_1" />
+                    <input type="hidden" name="sca" value="" />
+                    <input type="hidden" name="sop" value="and" />
 
-<!-- 게시판 목록 끝 -->
+                    <label for="sfl" class="sound_only">검색대상</label>
+                    <select name="sfl" id="sfl" class="select_ty">
+                      <option value="wr_subject">제목</option>
+                      <option value="wr_content">내용</option>
+                      <option value="wr_subject||wr_content">제목+내용</option>
+                    </select>
+                    <input
+                      type="text"
+                      name="stx"
+                      value=""
+                      placeholder="검색어"
+                      id="stx"
+                      class="input_ty"
+                      size="12"
+                      maxlength="20"
+                    />
+                    <input type="submit" value="검색" class="btn_search" />
+                  </form>
+                </fieldset>
+              </div>
 
-							</div><!--// bd_sec -->
-				</div><!-- sub_layout -->
-</div><!-- sub_wrap -->
+              <!-- 게시판 목록 끝 -->
+            </div>
+            <!--// bd_sec -->
+          </div>
+          <!-- sub_layout -->
+        </div>
+        <!-- sub_wrap -->
+      </div>
 
-</div>
+      <!-- 컨텐츠 : 시작 -->
 
-<!-- 컨텐츠 : 시작 -->
+      <div class="footer subb">
+        <div class="ft_wrap ct2">
+          <div class="ft_top flex_box fz16">
+            <ul>
+              <li class="">
+                <a href="#n" class="btn_privacy">개인정보처리방침</a>
+              </li>
+              <li class="">
+                <a href="#" class="btn_mail">이메일무단수집거부</a>
+              </li>
+              <li class=""><a href="#" class="btn_company">회사소개</a></li>
 
-<div class="footer subb ">
-	<div class="ft_wrap ct2">
-		<div class="ft_top flex_box fz16">
-			<ul>
-				<li class=""><a href="#n" class="btn_privacy">개인정보처리방침</a></li> 
-				<li class=""><a href="#" class="btn_mail">이메일무단수집거부</a></li>
-				<li class=""><a href="#" class="btn_company">회사소개</a></li>
-				    
-				<li class=""><a href="#l" class="btn_develop">연구개발</a></li>
-				<li class=""><a href="#" class="btn_marketing">홍보자료</a></li>
-			</ul>
-		</div>
-		<div class="ft_bottom flex_box fz16"> 
-			<div class="flex_box">
-				<div class="logo_copy">
-					<img class="ft_logo" src="../theme/voct/images/layout/ft_logo.png" alt="">
-					<p class="copy">ⓒ 2023 XKITBIO ALL RIGHTS RESERVED</p>
-				</div>
-				<ul class="flex_box ft_info_list">
-					<li>엑스키트바이오 주식회사 <span>ㅣ</span><br> 사업자등록번호 : 117-81-12574</li>				
-					<li> 본사 :   경기도 김포시 고촌읍 장차로13번길 25, 302-996호  <span>ㅣ</span><br>  TEL : 070-8019-3047 <span>ㅣ</span> &nbsp;  </li>
-					 
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
+              <li class=""><a href="#l" class="btn_develop">연구개발</a></li>
+              <li class=""><a href="#" class="btn_marketing">홍보자료</a></li>
+            </ul>
+          </div>
+          <div class="ft_bottom flex_box fz16">
+            <div class="flex_box">
+              <div class="logo_copy">
+                <img
+                  class="ft_logo"
+                  src="../theme/voct/images/layout/ft_logo.png"
+                  alt=""
+                />
+                <p class="copy">ⓒ 2023 XKITBIO ALL RIGHTS RESERVED</p>
+              </div>
+              <ul class="flex_box ft_info_list">
+                <li>
+                  엑스키트바이오 주식회사 <span>ㅣ</span><br />
+                  사업자등록번호 : 117-81-12574
+                </li>
+                <li>
+                  본사 : 경기도 김포시 고촌읍 장차로13번길 25, 302-996호
+                  <span>ㅣ</span><br />
+                  TEL : 070-8019-3047 <span>ㅣ</span> &nbsp;
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
- 
-<script>
-	$(function() {
-		// 폰트 리사이즈 쿠키있으면 실행
-		font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));	});
+      <script>
+        $(function () {
+          // 폰트 리사이즈 쿠키있으면 실행
+          font_resize(
+            "container",
+            get_cookie("ck_font_resize_rmv_class"),
+            get_cookie("ck_font_resize_add_class")
+          );
+        });
+      </script>
 
-</script>
+      <!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+      <!--[if lte IE 7]>
+        <script>
+          $(function () {
+            var $sv_use = $(".sv_use");
+            var count = $sv_use.length;
 
-
-
-<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
-<!--[if lte IE 7]>
-<script>
-$(function() {
-    var $sv_use = $(".sv_use");
-    var count = $sv_use.length;
-
-    $sv_use.each(function() {
-        $(this).css("z-index", count);
-        $(this).css("position", "relative");
-        count = count - 1;
-    });
-});
-</script>
-<![endif]-->
-
-</div></body>
+            $sv_use.each(function () {
+              $(this).css("z-index", count);
+              $(this).css("position", "relative");
+              count = count - 1;
+            });
+          });
+        </script>
+      <![endif]-->
+    </div>
+  </body>
 </html>
 
 <!-- 사용스킨 : theme/basic -->

@@ -1,14 +1,9 @@
 ﻿<!doctype html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="엑스키트바이오는 혁신적인 바이오 기술을 선도하는 회사입니다.">
-    <meta name="keywords" content="엑스키트바이오, 바이오 기술, 혁신, 생명공학, 연구개발, bio technology">
-    <meta name="author" content="엑스키트바이오">
-    <title>엑스키트바이오 | 혁신적인 바이오 기술</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="naver-site-verification" content="62c0910bc1e7645e20ac4e1e7f641c23f1f4ab5e" />
 <!--
 <meta name="viewport" content="width=1800">
 <meta name="HandheldFriendly" content="true">
@@ -187,8 +182,35 @@ var g5_theme_shop_url = "G5_THEME_SHOP_URL";
   background-color: #ddd;
 }
 </style>
-
+<div id="myModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img src="10077.png" alt="팝업 이미지" style="width:100%;">
+  <div class="modal-footer">
+    <button onclick="closeModal()">닫기</button>
+    <button onclick="hideForADay()">오늘 하루 보지 않기</button>
+  </div>
+</div>
+<!-- <div id="notice_modal" class="modal">
+  <span class="close" onclick="closeModal2()">&times;</span>
+  <img src="/img/notice_pop.png" alt="공지사항" style="width:100%;">
+  <div class="modal-footer">
+    <button onclick="closeModal2()">닫기</button>
+    <button onclick="hideForADay2()">오늘 하루 보지 않기</button>
+  </div>
+</div> -->
 <script>
+  function closeModal2() {
+    document.getElementById('notice_modal').style.display = 'none';
+  }
+  
+  function hideForADay2() {
+    var date = new Date();
+    date.setTime(date.getTime() + (24 * 60 * 60 * 1000)); // 1 day from now
+    var expires = "expires=" + date.toUTCString();
+    document.cookie = "hideModal2=true;" + expires + ";path=/";
+    closeModal2();
+  }
+
 function closeModal() {
   document.getElementById('myModal').style.display = 'none';
 }
@@ -206,10 +228,19 @@ function checkCookie() {
   var hideModal = cookies.some(function(cookie) {
     return cookie.trim().startsWith('hideModal=true');
   });
+  var hideModal2 = cookies.some(function(cookie) {
+    return cookie.trim().startsWith('hideModal2=true');
+  });
   if (!hideModal) {
     document.getElementById('myModal').style.display = 'block';
   } else {
     document.getElementById('myModal').style.display = 'none';
+  }
+
+  if (!hideModal2) {
+    document.getElementById('notice_modal').style.display = 'block';
+  } else {
+    document.getElementById('notice_modal').style.display = 'none';
   }
 }
 
@@ -277,18 +308,18 @@ $(window).load(function(){
 		</h1>
 		<nav class="hd_nav fz20">
 			<ul class="gnb" id="clone_gnb">
-				<li class=""><a href="s1/s1_1.php.html"><span>회사소개</span></a>
+				<li class=""><a href="/s1/s1_1.php.html"><span>회사소개</span></a>
 					<div class="subm">
 						<ul id="subm1" class="dep2 fz16">
-							<li class=""><a href="s1/s1_1.php.html"><span>기업개요</span></a></li>
-							<li class=""><a href="s1/s1_2.php.html"><span>CEO 인사말</span></a></li>
-							<li class=""><a href="s1/s1_3.php.html"><span>회사 연혁</span></a></li>
-							<li class=""><a href="s1/s1_4.php.html"><span>비전 CI</span></a></li>						
-							<li class=""><a href="s1/s1_5.php.html"><span>오시는 길</span></a></li>
+							<li class=""><a href="/s1/s1_1.php.html"><span>기업개요</span></a></li>
+							<li class=""><a href="/s1/s1_2.php.html"><span>CEO 인사말</span></a></li>
+							<li class=""><a href="/s1/s1_3.php.html"><span>회사 연혁</span></a></li>
+							<li class=""><a href="/s1/s1_4.php.html"><span>비전 CI</span></a></li>						
+							<li class=""><a href="/s1/s1_5.php.html"><span>오시는 길</span></a></li>
 						</ul>
 					</div>
 				</li>
-				
+				<li style="display:none;">
 					<div class="subm">
 						<ul id="subm2" class="dep2 fz16">
 											
@@ -296,28 +327,28 @@ $(window).load(function(){
 						</ul>
 					</div>
 				</li>		
-				<li class=""><a href="s3/s3_1.php.html"><span>연구개발</span></a>
+				<li class=""><a href="/s3/s3_1.php.html"><span>연구개발</span></a>
 					<div class="subm">
 						<ul id="subm3" class="dep2 fz16">
-							<li class=""><a href="s3/s3_1.php.html"><span>독점 기술</span></a></li>						
-							<li class=""><a href="s3/s3_2.php.html"><span>소재 개발</span></a></li>
+							<li class=""><a href="/s3/s3_1.php.html"><span>독점 기술</span></a></li>						
+							<li class=""><a href="/s3/s3_2.php.html"><span>소재 개발</span></a></li>
+              <li class=""><a href="/s3/s3_5.php.html"><span>성병진단기기</span></a></li>
 							 
 							<!-- <li class=""><a href="javascript:alert('준비중입니다.');"><span></span></a></li> -->
 						</ul>
 					</div>
 				</li>
-				  
-				  
+				<li style="display:none;">  
 					<div class="subm">
 						<ul id="subm5" class="dep2 fz16">
 							  
 						</ul>
 					</div>
 				</li>
-				<li class=""><a href="bbs/board.php-8.html?bo_table=s6_1"><span>채용정보</span></a>
+				<li class=""><a href="/bbs/board.php-8.html?bo_table=s6_1"><span>채용정보</span></a>
 					<div class="subm">
 						<ul id="subm6" class="dep2 fz16">
-							<li class=""><a href="bbs/board.php-8.html?bo_table=s6_1"><span>채용정보</span></a></li>
+							<li class=""><a href="/bbs/board.php-8.html?bo_table=s6_1"><span>채용정보</span></a></li>
 						</ul>
 					</div>
 				</li>
